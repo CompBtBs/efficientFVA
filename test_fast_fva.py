@@ -5,13 +5,8 @@ Created on Sun May 15 22:25:01 2022
 @author: Tyrion
 """
 import cobra as cb
-import time
-import os
-import matplotlib.pyplot as plt
 import pandas as pd
-import seaborn as sns
 from class_fastfva import eFVA
-import numpy as np
 from cobrapy_bigg_client import client
 
 cb.Configuration.solver="gurobi"
