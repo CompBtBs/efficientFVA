@@ -6,7 +6,7 @@ import numpy as np
 from scipy.sparse.csgraph import connected_components
 from cobra.util.array import create_stoichiometric_matrix
 
-class FVA:
+class eFVA:
     def __init__(self,model):
         self.model=model
    
