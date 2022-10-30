@@ -1,4 +1,4 @@
-;num reaction;fva reactions;normalFVA_mean;normalFVA_std;fastFVA_mean;fastFVA_std;precompute_time;precompute_time_std;perc;percTemp
+model;num reaction;fva reactions;normalFVA_mean;normalFVA_std;fastFVA_mean;fastFVA_std;precompute_time;precompute_time_std;perc;percTemp
 e_coli_core;95;62;0.062;0;0.066;0.015;0.016;0;65.26315789;1.064516129
 iAB_RBC_283;469;291;0.631;0.005;0.457;0.002;0.06;0.001;62.04690832;0.724247227
 iIS312;519;321;0.848;0.01;0.644;0.012;0.07;0.006;61.84971098;0.759433962
