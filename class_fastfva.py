@@ -46,7 +46,8 @@ class eFVA:
         for el in self.reaction_computed:
             rows.loc[el,el]=1 
 
-        Df_system=Df_system.append(rows,ignore_index=True)
+        # Df_system=Df_system.append(rows,ignore_index=True) removed in pandas 2.0
+        Df_system = pd.concat([Df_system, rows], ignore_index=True)
 
         self._b_system=np.zeros(len(valori_nonzero.index))
         self._Df_system=np.linalg.pinv(Df_system.to_numpy(dtype=float))
